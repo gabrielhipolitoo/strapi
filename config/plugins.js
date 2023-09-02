@@ -1,4 +1,8 @@
 module.exports = ({ env }) => ({
+  ckeditor5:{
+    enabled:true
+},
+
     'users-permissions': {
       config: {
       jwtSecret: env('JWT_SECRET'),
